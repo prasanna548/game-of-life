@@ -14,6 +14,14 @@ stages{
             git 'https://github.com/prasanna548/game-of-life.git'
         }
    }
+       stage("sync")
+
+    {
+        steps
+        {
+            echo 'testing testing.....'
+        }
+   }
     stage("buid"){
         steps
         {
