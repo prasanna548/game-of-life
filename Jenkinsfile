@@ -14,7 +14,7 @@ stages{
             git 'https://github.com/prasanna548/game-of-life.git'
         }
    }
-       stage("sync")
+       stage("tsting")
 
     {
         steps
