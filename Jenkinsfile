@@ -1,6 +1,6 @@
 
 pipeline{
-    agent any
+    agent {label 'node2'}
     tools{
           maven 'M2_HOME'
           jdk 'JAVA_HOME'
